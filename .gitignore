@@ -14,6 +14,7 @@ data/*.json
 # Output
 output/*
 !output/.gitkeep
+!output/*.json
 
 # IDE
 .vscode/

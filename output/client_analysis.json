@@ -1,0 +1,1860 @@
+{
+  "Econo": {
+    "total_emails": 93,
+    "email_types": {
+      "OPERATIONAL": 54,
+      "AUTO_NOTIFICATION": 35,
+      "OTHER": 4
+    },
+    "total_incidents": 23,
+    "total_signals": 124,
+    "action_required_count": 51,
+    "operational_impact_count": 13,
+    "sentiments": {
+      "POSITIVE": 58,
+      "CONCERNED": 7,
+      "NEUTRAL": 28
+    },
+    "incident_categories": {
+      "DELAY_DISRUPTION": 4,
+      "OPERATIONAL_ISSUES": 16,
+      "COST_CHANGES": 3
+    },
+    "incident_subcategories": {
+      "Vessel Delay": 1,
+      "Booking Cancellation Dispute": 1,
+      "Supplier Delay": 1,
+      "Loading delays": 1,
+      "PO Amendment Required": 1,
+      "Customs Hold": 2,
+      "Container Retention": 1,
+      "Product transition coordination": 1,
+      "Detention": 3,
+      "Multiple follow-ups": 3,
+      "PO Cancellation": 1,
+      "Vessel Rollover": 1,
+      "Documentation delays": 2,
+      "Supplier delays": 1,
+      "PO-Booking mapping issues": 1,
+      "Documentation quality issues": 1,
+      "Delivery Status Confusion": 1
+    },
+    "severities": {
+      "LOW": 6,
+      "MEDIUM": 17
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 86,
+      "CUSTOMS_APPROVAL": 4,
+      "QUICK_RESOLUTION": 4,
+      "CONFIRMATION": 1,
+      "COMMERCIAL_CONFIRMATION": 1,
+      "DOCUMENT_READY": 9,
+      "DELIVERY_CONFIRMATION": 2,
+      "QUICK_RESPONSE": 4,
+      "QUICK_CONFIRMATION": 5,
+      "OPERATIONAL_EFFICIENCY": 2,
+      "BOOKING_CONFIRMATION": 2,
+      "PROGRESS_UPDATE": 1,
+      "OPERATIONAL_COMPLETION": 1,
+      "DOCUMENT_CONFIRMATION": 1,
+      "COMMERCIAL_GESTURE": 1
+    },
+    "total_financial_impact_usd": 2080,
+    "financial_impacts": [
+      {
+        "amount": 520,
+        "currency": "USD",
+        "type": "detention",
+        "subcategory": "Detention",
+        "subject": "RE: DETALLE DE TRANSFERENCIA 12-10-2025"
+      },
+      {
+        "amount": 520,
+        "currency": "USD",
+        "type": "detention",
+        "subcategory": "Detention",
+        "subject": "RE: DETALLE DE TRANSFERENCIA 12-10-2025"
+      },
+      {
+        "amount": 1040,
+        "currency": "USD",
+        "type": "discrepancy",
+        "subcategory": "Multiple follow-ups",
+        "subject": "RE: DETALLE DE TRANSFERENCIA 12-10-2025"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Booking Cancellation Dispute",
+        "severity": "MEDIUM",
+        "details": "Hapag Lloyd attempted to cancel booking 75147466 at client request, but Genesis questions the cancel",
+        "subject": "RE: GT BOOKING 75147466 / GENESI 331 / EXPO WO 150014385"
+      },
+      {
+        "subcategory": "Supplier Delay",
+        "severity": "MEDIUM",
+        "details": "Supplier (SUPERMERCADOS ECONO INC.) has a situation and cannot load containers as scheduled for the ",
+        "subject": "RE: GT BOOKING 75147466 / GENESI 331 / EXPO WO 150014385"
+      },
+      {
+        "subcategory": "Loading delays",
+        "severity": "MEDIUM",
+        "details": "CSPO111780 has not loaded yet, container details unavailable",
+        "subject": "Re: Econo Beef Invoices ETA 02-20-2026 & 02-23-2026"
+      },
+      {
+        "subcategory": "Customs Hold",
+        "severity": "MEDIUM",
+        "details": "BL HLCUSCL260138971 still has accounting hold with LAC",
+        "subject": "**Carrero Autorizado** ARIZTIA USA INC - HAPAG LLOYD"
+      },
+      {
+        "subcategory": "Container Retention",
+        "severity": "MEDIUM",
+        "details": "Container GVTU5060617 continues to remain at Centro location, requiring pickup coordination",
+        "subject": "RE: [EXTERNAL] RE: Contenedor Vacio"
+      },
+      {
+        "subcategory": "Multiple follow-ups",
+        "severity": "MEDIUM",
+        "details": "Customer following up multiple times on PO status with partial fulfillment reported",
+        "subject": "RE: Order status"
+      },
+      {
+        "subcategory": "Vessel Rollover",
+        "severity": "MEDIUM",
+        "details": "Reefer containers already picked up this week but need to wait to sail until next week (February 22n",
+        "subject": "RE: Supermercados Econo // CSPO111663 & CSPO111664 // AL AND"
+      },
+      {
+        "subcategory": "Customs Hold",
+        "severity": "MEDIUM",
+        "details": "PO CSPO110299 has a USDA hold and cannot be assigned for pickup until further notice",
+        "subject": "RE: JOSÉ AÑADIDO HACIA ECONO CENTRO Y TRAFON"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "LOW",
+        "details": "Commercial invoice missing for PO CSPO110870, multiple requests made",
+        "subject": "RE: CSPO110870 COUNTRY PURE FOODS DL-244292"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Bill of Lading CWPS26150023 is incomplete and pending completion. Shipment not reflecting in SURI sy",
+        "subject": "RE: No reflejado en SURI | DRPO121905 - CAT40054963"
+      },
+      {
+        "subcategory": "Detention",
+        "severity": "MEDIUM",
+        "details": "Detention charge of $520 for container MRKU8702882 still under investigation by Maersk",
+        "subject": "RE: DETALLE DE TRANSFERENCIA 12-10-2025"
+      },
+      {
+        "subcategory": "Multiple follow-ups",
+        "severity": "LOW",
+        "details": "Discrepancy of $1040 USD between parties that needs to be settled",
+        "subject": "RE: DETALLE DE TRANSFERENCIA 12-10-2025"
+      },
+      {
+        "subcategory": "PO-Booking mapping issues",
+        "severity": "LOW",
+        "details": "Invoice shows PO CSPO111494 but PRISMA extracted PO CSPO111696 - potential mismatch in purchase orde",
+        "subject": "Fwd: Invoice 1356 from Golden Farmer, LLC"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "Container number mismatch: Invoice shows STRU950308-1 while PRISMA extracted STRU9503712",
+        "subject": "Fwd: Invoice 1356 from Golden Farmer, LLC"
+      },
+      {
+        "subcategory": "Delivery Status Confusion",
+        "severity": "MEDIUM",
+        "details": "Crowley reports they have not received delivery of shipment yet, while customer is requesting delive",
+        "subject": "RE: [EXTERNAL] Need CAT#  to set delivery on this load"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "B Fernandez": {
+    "total_emails": 60,
+    "email_types": {
+      "OPERATIONAL": 54,
+      "AUTO_NOTIFICATION": 6
+    },
+    "total_incidents": 29,
+    "total_signals": 88,
+    "action_required_count": 42,
+    "operational_impact_count": 17,
+    "sentiments": {
+      "POSITIVE": 30,
+      "NEUTRAL": 19,
+      "CONCERNED": 11
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 19,
+      "DELAY_DISRUPTION": 6,
+      "COST_CHANGES": 4
+    },
+    "incident_subcategories": {
+      "Documentation delays": 7,
+      "Security Warning": 4,
+      "Vessel Schedule Change": 1,
+      "Detention": 2,
+      "Documentation quality issues": 2,
+      "Booking assignment delays": 1,
+      "EDI System Issue": 2,
+      "Multiple follow-ups": 2,
+      "Amendment fees": 1,
+      "Vessel Delay": 1,
+      "Special Requirements": 1,
+      "Resource Allocation Discrepancy": 1,
+      "Scan Fee": 1,
+      "Free Time Expiration": 1,
+      "Consolidation Delay": 1,
+      "Stock Shortage": 1
+    },
+    "severities": {
+      "MEDIUM": 19,
+      "LOW": 9,
+      "HIGH": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 47,
+      "COLLABORATIVE_APPROACH": 2,
+      "DOCUMENT_READY": 10,
+      "QUICK_CONFIRMATION": 1,
+      "QUICK_RESOLUTION": 10,
+      "CUSTOMS_APPROVAL": 2,
+      "PROCESS_IMPROVEMENT": 1,
+      "BOOKING_CONFIRMATION": 1,
+      "QUICK_APPROVAL": 2,
+      "CLEAR_INSTRUCTIONS": 1,
+      "CLEAR_DOCUMENTATION_REQUIREMENTS": 1,
+      "COMMERCIAL_GESTURE": 1,
+      "APPROVAL_CONFIRMATION": 1,
+      "DOCUMENT_DELIVERY": 1,
+      "RESPONSIVE_COMMUNICATION": 1,
+      "DOCUMENT_APPROVAL": 1,
+      "OPERATIONAL_UPDATE": 2,
+      "ORDER_READY": 1,
+      "COORDINATION_SUPPORT": 1,
+      "DETAILED_SPECIFICATIONS": 1
+    },
+    "total_financial_impact_usd": 931.25,
+    "financial_impacts": [
+      {
+        "amount": 131.25,
+        "currency": "USD",
+        "type": "detention",
+        "subcategory": "Detention",
+        "subject": "Re: NOTIFICATION OF DETENTION, ORDER# 10004495340/CAT4005452"
+      },
+      {
+        "amount": 90,
+        "currency": "MIXED",
+        "type": "amendment_fee",
+        "subcategory": "Amendment fees",
+        "subject": "RE: BF-113616 Bodegas Williams & Humbert - EBKG15599914 - LS"
+      },
+      {
+        "amount": 625,
+        "currency": "USD",
+        "type": "detention",
+        "subcategory": "Detention",
+        "subject": "Re: B FERNANDEZ- HEINZ/KRAFT ASSIGN CONTAINER REQUEST (Threa"
+      },
+      {
+        "amount": 85.0,
+        "currency": "USD",
+        "type": "scan_fee",
+        "subcategory": "Scan Fee",
+        "subject": "Facturas Cavendish Farms ETA 2/23/26"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "TTB documentation required before proceeding with dry goods ordering. Label submissions needed for P",
+        "subject": "RE: BF-114436 Advini (France)"
+      },
+      {
+        "subcategory": "Security Warning",
+        "severity": "MEDIUM",
+        "details": "Security warning triggered for email from external domain garciatrucking.com claiming to provide POD",
+        "subject": "POD Generated for Shipment #335488 - Container # 9500056 - F"
+      },
+      {
+        "subcategory": "Security Warning",
+        "severity": "MEDIUM",
+        "details": "Security warning triggered for email from external domain garciatrucking.com claiming to provide POD",
+        "subject": "POD Generated for Shipment #335489 - Container #  - For B. F"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Missing commercial invoices for multiple POs with pending billing status. Several orders show 'NO' f",
+        "subject": "RE: Missing Commercial Invoices"
+      },
+      {
+        "subcategory": "Booking assignment delays",
+        "severity": "HIGH",
+        "details": "Orders with ETA February 23rd still don't have containers assigned according to Tote website. These ",
+        "subject": "RE: Missing Commercial Invoices"
+      },
+      {
+        "subcategory": "Multiple follow-ups",
+        "severity": "LOW",
+        "details": "Follow-up inquiry about pickup status for order BF-114898 after 9 days since approval",
+        "subject": "Re: BF-114898 Southern Glazer's (Delicato)"
+      },
+      {
+        "subcategory": "Special Requirements",
+        "severity": "MEDIUM",
+        "details": "Fumigation required for shipment with specific timing requirements to ensure vessel sailing schedule",
+        "subject": "2 BARILLA BOOKING REQUESTS | BF-114978 & BF-115194"
+      },
+      {
+        "subcategory": "Security Warning",
+        "severity": "MEDIUM",
+        "details": "Security warning triggered for email from external domain (crowley.com) claiming to contain equipmen",
+        "subject": "RSCS0011 EquipmentTrackingParameterd- B FERNANDEZ & HNOS INC"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "New COLA certificates required for wine bottles with updated packaging design including neck collar ",
+        "subject": "RE: BF-114948 Patriarche - 32867"
+      },
+      {
+        "subcategory": "Resource Allocation Discrepancy",
+        "severity": "MEDIUM",
+        "details": "Missing 8 railcars from work plan that were previously requested for booking NAGL321S",
+        "subject": "Re: NAGL321S ETA: 02/18/2026 FT: 03/04/2026"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Missing all documents for booking CAT40071842 on voyage NAL6006 with documentation cut-off at 2026-0",
+        "subject": "Documents Request: NAL6006 | Cut Off 02/20@12:00PM"
+      },
+      {
+        "subcategory": "Scan Fee",
+        "severity": "LOW",
+        "details": "Scan Fee of $85.00 required for delivery pickup at maritime line",
+        "subject": "Facturas Cavendish Farms ETA 2/23/26"
+      },
+      {
+        "subcategory": "Security Warning",
+        "severity": "MEDIUM",
+        "details": "Email flagged with security warning indicating sender domain (redelgado.com) does not match recipien",
+        "subject": "586538"
+      },
+      {
+        "subcategory": "Consolidation Delay",
+        "severity": "MEDIUM",
+        "details": "Order BF-114233 cannot be consolidated yet due to insufficient volume, causing pickup delay",
+        "subject": "R: BF-114233 Marilisa Allegrini (San Polo)"
+      },
+      {
+        "subcategory": "Stock Shortage",
+        "severity": "MEDIUM",
+        "details": "Warehouse can only supply 34 cases of Cristalino instead of requested 100 cases - 66% shortage",
+        "subject": "Re: [EXTERNAL] Re: BF-113851 Campari (Espolon, México)"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "Wendco of Puerto Rico, Inc.": {
+    "total_emails": 6,
+    "email_types": {
+      "OPERATIONAL": 3,
+      "AUTO_NOTIFICATION": 3
+    },
+    "total_incidents": 1,
+    "total_signals": 9,
+    "action_required_count": 1,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "POSITIVE": 2,
+      "NEUTRAL": 4
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 1
+    },
+    "incident_subcategories": {
+      "Documentation Authorization Issue": 1
+    },
+    "severities": {
+      "MEDIUM": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 6,
+      "COMMERCIAL_GESTURE": 1,
+      "LONG_TERM_RELATIONSHIP": 1,
+      "OPERATIONAL_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Ballester": {
+    "total_emails": 50,
+    "email_types": {
+      "OPERATIONAL": 43,
+      "AUTO_NOTIFICATION": 5,
+      "OTHER": 2
+    },
+    "total_incidents": 26,
+    "total_signals": 79,
+    "action_required_count": 20,
+    "operational_impact_count": 12,
+    "sentiments": {
+      "POSITIVE": 27,
+      "NEUTRAL": 13,
+      "URGENT": 1,
+      "CONCERNED": 9
+    },
+    "incident_categories": {
+      "COST_CHANGES": 3,
+      "OPERATIONAL_ISSUES": 19,
+      "DELAY_DISRUPTION": 4
+    },
+    "incident_subcategories": {
+      "Demurrage": 1,
+      "Inventory Shortage": 1,
+      "Booking Correction": 1,
+      "Pickup Scheduling Delay": 1,
+      "Product Damage": 1,
+      "Supplier delays": 2,
+      "Product Substitution": 2,
+      "Shipment Shortage": 1,
+      "Shipping Cost Adjustment": 1,
+      "Freight Payment Terms": 1,
+      "PO-BL Mapping Confusion": 1,
+      "Product Availability": 1,
+      "System synchronization issue": 3,
+      "Multiple follow-ups": 1,
+      "Incomplete Shipment": 1,
+      "Inventory Risk": 1,
+      "Schedule Uncertainty": 4,
+      "Pickup Status Uncertainty": 1,
+      "Potential Schedule Delay": 1
+    },
+    "severities": {
+      "MEDIUM": 16,
+      "HIGH": 2,
+      "LOW": 8
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 46,
+      "DOCUMENT_READY": 9,
+      "DOCUMENT_CONFIRMATION": 1,
+      "CUSTOMS_APPROVAL": 2,
+      "QUICK_RESOLUTION": 10,
+      "ORDER_CONFIRMATION": 1,
+      "SCHEDULE_CONFIRMATION": 1,
+      "COMMERCIAL_GESTURE": 1,
+      "PROCESS_IMPROVEMENT": 1,
+      "QUICK_PROCESSING": 1,
+      "SCHEDULE_MAINTAINED": 1,
+      "QUICK_RESPONSE": 1,
+      "ORDER_READY": 4
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Demurrage",
+        "severity": "MEDIUM",
+        "details": "MSC demurrage charges: $135/day for first 3 days after 7 free days, then $220/day from day 4 onwards",
+        "subject": "Re: PO #25 CARIBBEAN CONDIMENT | 213158C | SHIP BY 1/07/26"
+      },
+      {
+        "subcategory": "Inventory Shortage",
+        "severity": "HIGH",
+        "details": "Product has been out of stock for several weeks, urgent pickup needed",
+        "subject": "Re: PO #25 CARIBBEAN CONDIMENT | 213158C | SHIP BY 1/07/26"
+      },
+      {
+        "subcategory": "Pickup Scheduling Delay",
+        "severity": "LOW",
+        "details": "Pickup scheduled for tomorrow depends on route cargo departures, may be rescheduled to Monday Feb 23",
+        "subject": "Re: PO: D.COQUI-213622B-26-372 from 02/17/26"
+      },
+      {
+        "subcategory": "Product Damage",
+        "severity": "MEDIUM",
+        "details": "Products arrived with damage/breakage in PO 115 from Central Veterinaria, container SELU 4410787. Da",
+        "subject": "Productos Damaged PO 115 Central Veterinaria"
+      },
+      {
+        "subcategory": "Freight Payment Terms",
+        "severity": "MEDIUM",
+        "details": "Freight charges payment terms need confirmation - whether changed to 'collect' (payable at destinati",
+        "subject": "RE: PO.436- HLCULIV251204990 Freight Charges"
+      },
+      {
+        "subcategory": "Multiple follow-ups",
+        "severity": "MEDIUM",
+        "details": "Multiple follow-ups requesting pickup appointment confirmation for PO EL EBRO-213106A-25-3, with no ",
+        "subject": "RE: PO: EL EBRO-213106A-25-3 from 12/12/25"
+      },
+      {
+        "subcategory": "Inventory Risk",
+        "severity": "HIGH",
+        "details": "Customer facing potential out-of-stock situation by next week due to incomplete shipment",
+        "subject": "Re: BHI SO-057228_RE: PO 2 | TROPICAL FOODS"
+      },
+      {
+        "subcategory": "Schedule Uncertainty",
+        "severity": "MEDIUM",
+        "details": "Customer questioning if PO#344 will ship in February, considering moving ready date to March due to ",
+        "subject": "RE: ECONO  PO#344 #101015199  CPU# DRPO122461"
+      },
+      {
+        "subcategory": "Schedule Uncertainty",
+        "severity": "MEDIUM",
+        "details": "Customer questioning if PO#343 will ship in February as scheduled, considering moving ready date to ",
+        "subject": "RE: ECONO  PO#343 #101016001  CPU# DRPO122459"
+      },
+      {
+        "subcategory": "Schedule Uncertainty",
+        "severity": "MEDIUM",
+        "details": "Customer questioning if PO#342 will ship in February, considering moving ready date to March due to ",
+        "subject": "RE: ECONO  PO#342 #101016000  CPU# DRPO122458"
+      },
+      {
+        "subcategory": "Pickup Status Uncertainty",
+        "severity": "LOW",
+        "details": "Customer inquiring about pickup status for PO 248, not seeing it reflected in their system despite s",
+        "subject": "Re: [External] RE: BALLESTER SUPERMAX INC - PO# 248, SAP# 10"
+      },
+      {
+        "subcategory": "Schedule Uncertainty",
+        "severity": "MEDIUM",
+        "details": "Customer questioning if order will ship in February, considering moving ready date to March due to u",
+        "subject": "RE: ECONO  PO#345 #101015731  CPU# DRPO122460"
+      },
+      {
+        "subcategory": "Potential Schedule Delay",
+        "severity": "MEDIUM",
+        "details": "Customer questioning if order will ship in February, considering moving to March ready date due to t",
+        "subject": "RE: ECONO  PO#347 #101015732 CPU# DRPO122462"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "Re: PO #25 CARIBBEAN CONDIMENT | 213158C | SHIP BY 1/07/26",
+        "sentiment": "URGENT",
+        "summary": "Container MEDU9839225 for PO 2025-00025 cleared customs and ready for pickup. Urgent pickup requeste"
+      }
+    ]
+  },
+  "Berrios": {
+    "total_emails": 13,
+    "email_types": {
+      "READ_RECEIPT": 1,
+      "OTHER": 2,
+      "AUTO_NOTIFICATION": 3,
+      "MARKETING": 2,
+      "OPERATIONAL": 5
+    },
+    "total_incidents": 3,
+    "total_signals": 17,
+    "action_required_count": 2,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 5,
+      "POSITIVE": 8
+    },
+    "incident_categories": {
+      "COST_CHANGES": 2,
+      "OPERATIONAL_ISSUES": 1
+    },
+    "incident_subcategories": {
+      "Demurrage": 2,
+      "Inventory Management Issue": 1
+    },
+    "severities": {
+      "MEDIUM": 2,
+      "LOW": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 10,
+      "DOCUMENT_READY": 3,
+      "QUICK_RESOLUTION": 1,
+      "STRUCTURED_PLANNING": 1,
+      "CUSTOMS_APPROVAL": 2
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Demurrage",
+        "severity": "MEDIUM",
+        "details": "Free time expires 03/12/2026, demurrage starts 03/13/2026 for container TRHU6482845",
+        "subject": "FW: ARRIVAL NOTICE INVOICE SCANNING FEE & CGH INVOICE"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "Global Wine & Spirits": {
+    "total_emails": 26,
+    "email_types": {
+      "MARKETING": 1,
+      "OPERATIONAL": 21,
+      "AUTO_NOTIFICATION": 3,
+      "OTHER": 1
+    },
+    "total_incidents": 16,
+    "total_signals": 41,
+    "action_required_count": 19,
+    "operational_impact_count": 8,
+    "sentiments": {
+      "POSITIVE": 10,
+      "NEUTRAL": 12,
+      "CONCERNED": 4
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 13,
+      "DELAY_DISRUPTION": 3
+    },
+    "incident_subcategories": {
+      "Cargo Shortage and Damage": 1,
+      "Documentation quality issues": 2,
+      "Documentation delays": 2,
+      "Quantity discrepancy": 1,
+      "Production Delay": 1,
+      "Documentation requirements": 1,
+      "Cargo Damage": 1,
+      "Documentation Issues": 1,
+      "Supplier delays": 1,
+      "Production delays": 1,
+      "Inventory shortage": 1,
+      "Cargo Immobilization": 1,
+      "Documentation and Billing Clarification": 1,
+      "Loss in Transit": 1
+    },
+    "severities": {
+      "MEDIUM": 9,
+      "LOW": 6,
+      "HIGH": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 22,
+      "COMMERCIAL_OFFER": 1,
+      "CUSTOMS_APPROVAL": 2,
+      "PROCESS_COMPLETION": 2,
+      "COMMERCIAL_GESTURE": 1,
+      "BOOKING_CONFIRMATION": 1,
+      "DOCUMENT_READY": 2,
+      "QUICK_RESOLUTION": 5,
+      "COLLABORATIVE_APPROACH": 2,
+      "QUICK_RESPONSE": 1,
+      "CUSTOMER_FLEXIBILITY": 1,
+      "CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 58247.06,
+    "financial_impacts": [
+      {
+        "amount": 58247.06,
+        "currency": "COP",
+        "type": "adjustment_cost",
+        "subcategory": "Loss in Transit",
+        "subject": "RE: siniestro  1606401136472-01"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Cargo Shortage and Damage",
+        "severity": "MEDIUM",
+        "details": "Shortage of cargo and broken bottles reported for shipment MAP014737. Origin confirmed 9 pallets wit",
+        "subject": "RE: CIERRE // MAP014737"
+      },
+      {
+        "subcategory": "Quantity discrepancy",
+        "severity": "MEDIUM",
+        "details": "PO 3521D shows discrepancy - forwarder BL indicates 1430 cases of Aperol but PO shows 1300 cases. Co",
+        "subject": "RE: [EXTERNAL] DOCUMENTOS OC 3521A , 3521D , 3521C ,  3521D "
+      },
+      {
+        "subcategory": "Production Delay",
+        "severity": "HIGH",
+        "details": "World Cup product production delayed, originally scheduled for March 11, now confirmed to start week",
+        "subject": "RE: Subject: Support Needed – Products Not Showing on Platfo"
+      },
+      {
+        "subcategory": "Documentation requirements",
+        "severity": "LOW",
+        "details": "INVIMA permit required for importing samples without sanitary registration from Mexico to Colombia f",
+        "subject": "RE: Envío muestras Innovación Bacardi COL"
+      },
+      {
+        "subcategory": "Cargo Damage",
+        "severity": "MEDIUM",
+        "details": "Broken bottles detected in shipment MAP014737 containing 9 pallets with 675 boxes",
+        "subject": "RE: CIERRE // MAP014737"
+      },
+      {
+        "subcategory": "Documentation Issues",
+        "severity": "LOW",
+        "details": "Missing signature on damage report documentation",
+        "subject": "RE: CIERRE // MAP014737"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "BH Forwarding": {
+    "total_emails": 11,
+    "email_types": {
+      "OPERATIONAL": 11
+    },
+    "total_incidents": 6,
+    "total_signals": 19,
+    "action_required_count": 2,
+    "operational_impact_count": 3,
+    "sentiments": {
+      "CONCERNED": 2,
+      "URGENT": 1,
+      "POSITIVE": 8
+    },
+    "incident_categories": {
+      "DELAY_DISRUPTION": 1,
+      "COST_CHANGES": 2,
+      "OPERATIONAL_ISSUES": 3
+    },
+    "incident_subcategories": {
+      "Documentation delays": 2,
+      "Demurrage": 2,
+      "Multiple follow-ups": 2
+    },
+    "severities": {
+      "MEDIUM": 6
+    },
+    "signal_types": {
+      "DOCUMENT_READY": 8,
+      "PAYMENT_PROCESSED": 1,
+      "RESOLUTION_CONFIRMATION": 1,
+      "PROACTIVE_COMMUNICATION": 8,
+      "DELIVERY_COORDINATION": 1
+    },
+    "total_financial_impact_usd": 4560,
+    "financial_impacts": [
+      {
+        "amount": 4560,
+        "currency": "USD",
+        "type": "demurrage",
+        "subcategory": "Demurrage",
+        "subject": "CANDADO OOCL  // IMZO2601-009//VERNAZZA//NATH25-01"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Missing TELEX document required for revalidation process",
+        "subject": "Re: BRY26-02 / TXGU6576840 / 418 CAJAS / 8,778 K / LZO 18/02"
+      },
+      {
+        "subcategory": "Demurrage",
+        "severity": "MEDIUM",
+        "details": "OOCL has placed a hold (candado) on operations due to unpaid demurrage charges of $4,560 USD for con",
+        "subject": "CANDADO OOCL  // IMZO2601-009//VERNAZZA//NATH25-01"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "CANDADO OOCL  // IMZO2601-009//VERNAZZA//NATH25-01",
+        "sentiment": "URGENT",
+        "summary": "Urgent request for $4,560 USD demurrage payment to OOCL to release operational hold on container OOL"
+      }
+    ]
+  },
+  "Danosa": {
+    "total_emails": 3,
+    "email_types": {
+      "OPERATIONAL": 3
+    },
+    "total_incidents": 6,
+    "total_signals": 6,
+    "action_required_count": 3,
+    "operational_impact_count": 3,
+    "sentiments": {
+      "CONCERNED": 1,
+      "URGENT": 2
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 1,
+      "COST_CHANGES": 3,
+      "DELAY_DISRUPTION": 2
+    },
+    "incident_subcategories": {
+      "Documentation delays": 3,
+      "Late documentation fee": 3
+    },
+    "severities": {
+      "MEDIUM": 3,
+      "LOW": 3
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 3,
+      "DOCUMENT_READY": 2,
+      "OPERATIONAL_UPDATE": 1
+    },
+    "total_financial_impact_usd": 1140,
+    "financial_impacts": [
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late_documentation_fee",
+        "subcategory": "Documentation delays",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late_fee",
+        "subcategory": "Late documentation fee",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late documentation fee",
+        "subcategory": "Documentation delays",
+        "subject": "Re: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late fee",
+        "subcategory": "Late documentation fee",
+        "subject": "Re: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late documentation fee",
+        "subcategory": "Documentation delays",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "amount": 190,
+        "currency": "USD",
+        "type": "late documentation fee",
+        "subcategory": "Late documentation fee",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Late documentation fee",
+        "severity": "LOW",
+        "details": "Hapag charges $190 USD for late documentation requests. Carrier disclaims responsibility for schedul",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "subcategory": "Late documentation fee",
+        "severity": "LOW",
+        "details": "HAPAG charges 190 USD for late documentation requests",
+        "subject": "Re: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Missing invoice and remission sheet causing documentation delays. Multiple follow-ups requesting doc",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      },
+      {
+        "subcategory": "Late documentation fee",
+        "severity": "LOW",
+        "details": "HAPAG charges $190 USD for late documentation requests. Multiple warnings provided about this potent",
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TEC"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "Re: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TECNOBRICK _ SAN JUAN PTO RICO _ PO 2783",
+        "sentiment": "URGENT",
+        "summary": "Supplier finally provided invoices after multiple urgent requests from freight forwarder to meet doc"
+      },
+      {
+        "subject": "RE: EM-2601006 _ 1X40 HC // HAPAG _ 34406937 // DANOSA - TECNOBRICK _ SAN JUAN PTO RICO _ PO 2783",
+        "sentiment": "URGENT",
+        "summary": "Urgent follow-up requesting missing invoice and remission sheet for booking 34406937 (PO 2783) with "
+      }
+    ]
+  },
+  "Enco": {
+    "total_emails": 7,
+    "email_types": {
+      "OPERATIONAL": 6,
+      "OTHER": 1
+    },
+    "total_incidents": 5,
+    "total_signals": 9,
+    "action_required_count": 4,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "POSITIVE": 3,
+      "NEUTRAL": 3,
+      "URGENT": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 4,
+      "DELAY_DISRUPTION": 1
+    },
+    "incident_subcategories": {
+      "Documentation quality issues": 2,
+      "Multiple follow-ups": 1,
+      "Order Modification": 1,
+      "Shipment Delay": 1
+    },
+    "severities": {
+      "LOW": 4,
+      "MEDIUM": 1
+    },
+    "signal_types": {
+      "QUICK_RESOLUTION": 1,
+      "ORDER_MODIFICATION": 1,
+      "PROACTIVE_COMMUNICATION": 4,
+      "QUICK_RESPONSE": 1,
+      "PAYMENT_CONFIRMATION": 1,
+      "DOCUMENT_READY": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Multiple follow-ups",
+        "severity": "LOW",
+        "details": "Customer requesting ship date confirmation for PO 39663 after previous order modifications and quant",
+        "subject": "Re: PO 39663"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "Updated order with additional pearl white color item was not properly attached to email",
+        "subject": "Re: PO 39826"
+      },
+      {
+        "subcategory": "Order Modification",
+        "severity": "LOW",
+        "details": "Customer requesting to add additional item (pearl white color) to existing PO 39826 after payment tr",
+        "subject": "Re: PO 39826"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "Re: PO 117074 // DOW # 118292306",
+        "sentiment": "URGENT",
+        "summary": "PO 117074 experiencing 2-week delay (ETA moved from 02/16 to 03/02). Customer urgently needs deliver"
+      }
+    ]
+  },
+  "SINBIOTIK": {
+    "total_emails": 2,
+    "email_types": {
+      "OPERATIONAL": 2
+    },
+    "total_incidents": 0,
+    "total_signals": 4,
+    "action_required_count": 1,
+    "operational_impact_count": 0,
+    "sentiments": {
+      "POSITIVE": 2
+    },
+    "incident_categories": {},
+    "incident_subcategories": {},
+    "severities": {},
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 2,
+      "DOCUMENT_APPROVAL": 1,
+      "QUICK_RESOLUTION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Able Sales": {
+    "total_emails": 95,
+    "email_types": {
+      "OPERATIONAL": 42,
+      "AUTO_NOTIFICATION": 51,
+      "OTHER": 2
+    },
+    "total_incidents": 11,
+    "total_signals": 109,
+    "action_required_count": 46,
+    "operational_impact_count": 5,
+    "sentiments": {
+      "POSITIVE": 48,
+      "NEUTRAL": 44,
+      "URGENT": 1,
+      "CONCERNED": 2
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 6,
+      "DELAY_DISRUPTION": 4,
+      "COST_CHANGES": 1
+    },
+    "incident_subcategories": {
+      "Documentation delays": 4,
+      "Product Damage": 1,
+      "Vessel Rollover": 1,
+      "Revised Sailing Schedule": 1,
+      "Revised Sailing": 1,
+      "Supplier Delay": 1,
+      "Documentation Delays": 1,
+      "Price Increase": 1
+    },
+    "severities": {
+      "LOW": 4,
+      "MEDIUM": 7
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 76,
+      "DOCUMENT_READY": 17,
+      "ORDER_CONFIRMATION": 9,
+      "PAYMENT_CONFIRMATION": 1,
+      "PROCESS_IMPROVEMENT": 1,
+      "FLEXIBLE_SERVICE": 1,
+      "QUICK_RESPONSE": 1,
+      "CARGO_LOADED": 1,
+      "QUICK_RESOLUTION": 1,
+      "BOOKING_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation delays",
+        "severity": "LOW",
+        "details": "CQE certificate is pending for PO AS-155542",
+        "subject": "Fw: PO AS-155542 ABLE SALES CO INC 1 CONTENEDOR"
+      },
+      {
+        "subcategory": "Vessel Rollover",
+        "severity": "MEDIUM",
+        "details": "Revised sailing information provided for PRO# 860940, BOOKING# CAT-40034413, PO# AS-155513. Original",
+        "subject": "FW: REVISED SAILING ---- <PRO# 860940 BOOKING# CAT-40034413 "
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "LOW",
+        "details": "Seal number not yet available for container that loaded yesterday. MH Shipping to provide ASAP.",
+        "subject": "FW: REVISED SAILING ---- <PRO# 860940 BOOKING# CAT-40034413 "
+      },
+      {
+        "subcategory": "Revised Sailing Schedule",
+        "severity": "MEDIUM",
+        "details": "Sailing schedule has been revised for booking CAT-40034413, requiring updated sailing information to",
+        "subject": "FW: REVISED SAILING ---- <PRO# 860940 BOOKING# CAT-40034413 "
+      },
+      {
+        "subcategory": "Revised Sailing",
+        "severity": "MEDIUM",
+        "details": "Sailing schedule was revised for PRO# 860940, BOOKING# CAT-40034413, PO# AS-155513. Container loaded",
+        "subject": "FW: REVISED SAILING ---- <PRO# 860940 BOOKING# CAT-40034413 "
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Multiple requests for commercial invoices for three orders (AS-155451, AS-155452, AS-155453) with su",
+        "subject": "FW: NEED INVOICES ---Able Sales Orders - Rise Baking Co. AS-"
+      },
+      {
+        "subcategory": "Documentation Delays",
+        "severity": "LOW",
+        "details": "Multiple requests for commercial invoices needed for customs filing across 3 orders",
+        "subject": "FW: NEED INVOICES ---Able Sales Orders - Rise Baking Co. AS-"
+      },
+      {
+        "subcategory": "Price Increase",
+        "severity": "MEDIUM",
+        "details": "PLZ Corp implemented price increase on orders shipping after 2/1. New case price is $15.48, requirin",
+        "subject": "FW: Able Sales Order - PLZ Corp AS-155501"
+      },
+      {
+        "subcategory": "Documentation delays",
+        "severity": "MEDIUM",
+        "details": "Multiple follow-ups required for revised PO submission. Order blocked from shipping due to missing r",
+        "subject": "FW: Able Sales Order - PLZ Corp AS-155501"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "FW: NEED INVOICES ---Able Sales Orders - Rise Baking Co. AS-155451 / AS-155452 / AS-155453",
+        "sentiment": "URGENT",
+        "summary": "Urgent request for commercial invoices for three Rise Baking Company orders needed for customs filin"
+      }
+    ]
+  },
+  "SIEM": {
+    "total_emails": 3,
+    "email_types": {
+      "OPERATIONAL": 3
+    },
+    "total_incidents": 2,
+    "total_signals": 6,
+    "action_required_count": 1,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "POSITIVE": 2,
+      "NEUTRAL": 1
+    },
+    "incident_categories": {
+      "COST_CHANGES": 2
+    },
+    "incident_subcategories": {
+      "Demurrage": 2
+    },
+    "severities": {
+      "MEDIUM": 2
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 3,
+      "INSPECTION_PASSED": 1,
+      "QUICK_RESOLUTION": 2
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Colombina": {
+    "total_emails": 6,
+    "email_types": {
+      "OPERATIONAL": 6
+    },
+    "total_incidents": 4,
+    "total_signals": 12,
+    "action_required_count": 3,
+    "operational_impact_count": 4,
+    "sentiments": {
+      "POSITIVE": 3,
+      "CONCERNED": 3
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 4
+    },
+    "incident_subcategories": {
+      "Schedule Change Request": 1,
+      "Documentation quality issues": 1,
+      "Booking reservation error": 2
+    },
+    "severities": {
+      "MEDIUM": 4
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 7,
+      "PROCESS_CONFIRMATION": 1,
+      "DOCUMENT_READY": 2,
+      "QUICK_CONFIRMATION": 1,
+      "QUICK_RESOLUTION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "MEDIUM",
+        "details": "INVIMA regulatory requirement not properly addressed - incorrect documentation provided that doesn't",
+        "subject": "RE: REQUERIMIENTO INVIMA TMR-I-0042959-20260216 DO 7879 -PED"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "Puerto Rico Supplies": {
+    "total_emails": 25,
+    "email_types": {
+      "OPERATIONAL": 18,
+      "OTHER": 1,
+      "AUTO_NOTIFICATION": 6
+    },
+    "total_incidents": 3,
+    "total_signals": 35,
+    "action_required_count": 10,
+    "operational_impact_count": 2,
+    "sentiments": {
+      "POSITIVE": 14,
+      "NEUTRAL": 10,
+      "URGENT": 1
+    },
+    "incident_categories": {
+      "DELAY_DISRUPTION": 2,
+      "OPERATIONAL_ISSUES": 1
+    },
+    "incident_subcategories": {
+      "ETA Changes": 1,
+      "Email quarantine blocking operational notifications": 1,
+      "Customs delays": 1
+    },
+    "severities": {
+      "MEDIUM": 3
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 19,
+      "SMOOTH_OPERATIONS": 1,
+      "CUSTOMS_APPROVAL": 5,
+      "DOCUMENT_READY": 7,
+      "QUICK_RESOLUTION": 2,
+      "CLEAR_COMMUNICATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "ETA Changes",
+        "severity": "MEDIUM",
+        "details": "Multiple ETA revisions for PO 312608/244547: Jan 29 → Jan 28 → Jan 30, showing schedule instability",
+        "subject": "ITINERARIO  ACEITUNAS: PUERTO RICO SUPPLIES Saludos,"
+      },
+      {
+        "subcategory": "Email quarantine blocking operational notifications",
+        "severity": "MEDIUM",
+        "details": "3 arrival notices quarantined between 09:00-12:00, including VSSL001446708 for SC JOHNSON PUERTO RIC",
+        "subject": "Quarantine Summary: [ 3 message(s) quarantined from Thu, 19 "
+      },
+      {
+        "subcategory": "Customs delays",
+        "severity": "MEDIUM",
+        "details": "US Customs release is pending and being requested urgently for PO 247499 & 247500",
+        "subject": "RE: MARGO PO 247499 & PO 247500"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "RE: MARGO PO 247499 & PO 247500",
+        "sentiment": "URGENT",
+        "summary": "Urgent request for US Customs release for PO 247499 & 247500 shipment with containers PRRU4013742 an"
+      }
+    ]
+  },
+  "Ferreterias National": {
+    "total_emails": 6,
+    "email_types": {
+      "OTHER": 2,
+      "OPERATIONAL": 4
+    },
+    "total_incidents": 4,
+    "total_signals": 9,
+    "action_required_count": 3,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 4,
+      "POSITIVE": 2
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 2,
+      "DELAY_DISRUPTION": 2
+    },
+    "incident_subcategories": {
+      "Pickup/Delivery Issues": 1,
+      "Capacity Changes": 1,
+      "Driver Delay": 2
+    },
+    "severities": {
+      "MEDIUM": 1,
+      "LOW": 3
+    },
+    "signal_types": {
+      "QUICK_RESOLUTION": 1,
+      "ACCOMMODATION": 1,
+      "PROACTIVE_COMMUNICATION": 3,
+      "QUICK_APPROVAL": 1,
+      "DOCUMENT_READY": 1,
+      "QUICK_RESPONSE": 1,
+      "BOOKING_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Stone and Tile": {
+    "total_emails": 1,
+    "email_types": {
+      "OTHER": 1
+    },
+    "total_incidents": 0,
+    "total_signals": 0,
+    "action_required_count": 0,
+    "operational_impact_count": 0,
+    "sentiments": {
+      "NEUTRAL": 1
+    },
+    "incident_categories": {},
+    "incident_subcategories": {},
+    "severities": {},
+    "signal_types": {},
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "IMCD Puerto Rico": {
+    "total_emails": 26,
+    "email_types": {
+      "AUTO_NOTIFICATION": 11,
+      "OPERATIONAL": 15
+    },
+    "total_incidents": 5,
+    "total_signals": 33,
+    "action_required_count": 13,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 13,
+      "POSITIVE": 12,
+      "CONCERNED": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 3,
+      "DELAY_DISRUPTION": 2
+    },
+    "incident_subcategories": {
+      "PO Currency Correction": 2,
+      "PO Currency Mismatch": 1,
+      "Pickup delay": 1,
+      "Transit time extension": 1
+    },
+    "severities": {
+      "LOW": 5
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 25,
+      "DOCUMENT_READY": 5,
+      "QUICK_RESOLUTION": 3
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Transit time extension",
+        "severity": "LOW",
+        "details": "LTL transit times extended by 3-4 additional business days due to weather and congestion",
+        "subject": "RE: PICK UP WITH ECU Q#DSA65/4263897 /RE: PO# 26400140 || BK"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "Caribbean Restaurants": {
+    "total_emails": 14,
+    "email_types": {
+      "OPERATIONAL": 14
+    },
+    "total_incidents": 13,
+    "total_signals": 17,
+    "action_required_count": 11,
+    "operational_impact_count": 7,
+    "sentiments": {
+      "NEUTRAL": 4,
+      "POSITIVE": 4,
+      "CONCERNED": 6
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 12,
+      "DELAY_DISRUPTION": 1
+    },
+    "incident_subcategories": {
+      "PO Cancellation": 1,
+      "Delivery Discrepancy": 1,
+      "Pickup Failure - Documentation Issue": 1,
+      "Order quantity adjustments": 1,
+      "Supplier delays": 1,
+      "Documentation quality issues": 1,
+      "Order Change Request Not Processed": 1,
+      "Scheduling Conflict": 1,
+      "Information Management Issues": 1,
+      "PO-Booking mapping issues": 1,
+      "Driver/Transportation Issue": 1,
+      "Communication Confusion": 1,
+      "Order Modification Issues": 1
+    },
+    "severities": {
+      "MEDIUM": 8,
+      "LOW": 5
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 12,
+      "STRUCTURED_COMMUNICATION": 1,
+      "COLLABORATIVE_RESOLUTION": 1,
+      "QUICK_RESOLUTION": 1,
+      "COLLABORATIVE_COMMUNICATION": 1,
+      "ORDER_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 1227.6,
+    "financial_impacts": [
+      {
+        "amount": 1227.6,
+        "currency": "USD",
+        "type": "dry_run_charge",
+        "subcategory": "Pickup Failure - Documentation Issue",
+        "subject": "RE: KRAFT: PO 466289 ETA PR 03/02 --- CAT40063532"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Order quantity adjustments",
+        "severity": "LOW",
+        "details": "Supplier requesting quantity adjustments for PO 466291: Item 6752583118600 changed to 216cs, Item 67",
+        "subject": "RE: KRAFT: PO 466291"
+      },
+      {
+        "subcategory": "Supplier delays",
+        "severity": "MEDIUM",
+        "details": "Shipment for PO FRANKE 463996 cannot be loaded this week, customer asking for alternative loading ti",
+        "subject": "RE: FRANKE 463996"
+      },
+      {
+        "subcategory": "Order Change Request Not Processed",
+        "severity": "MEDIUM",
+        "details": "Customer requested quantity adjustments and ETA change for PO 466289 on Feb 17, but order shipped wi",
+        "subject": "RE: KRAFT: PO 466289"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "AC Brand": {
+    "total_emails": 17,
+    "email_types": {
+      "OPERATIONAL": 12,
+      "AUTO_NOTIFICATION": 5
+    },
+    "total_incidents": 6,
+    "total_signals": 26,
+    "action_required_count": 10,
+    "operational_impact_count": 2,
+    "sentiments": {
+      "NEUTRAL": 8,
+      "POSITIVE": 8,
+      "CONCERNED": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 5,
+      "COST_CHANGES": 1
+    },
+    "incident_subcategories": {
+      "PO Status Clarification": 1,
+      "Demurrage": 1,
+      "CNEE Blacklist Issue": 1,
+      "Documentation delays": 2,
+      "Damaged Goods": 1
+    },
+    "severities": {
+      "LOW": 2,
+      "MEDIUM": 3,
+      "HIGH": 1
+    },
+    "signal_types": {
+      "ORDER_CONFIRMATION": 1,
+      "PROACTIVE_COMMUNICATION": 16,
+      "DOCUMENT_READY": 4,
+      "CUSTOMS_APPROVAL": 1,
+      "HOLIDAY_WISHES": 1,
+      "QUICK_RESOLUTION": 2,
+      "PAYMENT_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 85,
+    "financial_impacts": [
+      {
+        "amount": 85,
+        "currency": "USD",
+        "type": "amendment_fee",
+        "subcategory": "CNEE Blacklist Issue",
+        "subject": "RE: Re:FINAL BL SI././ BL SI//BOOKING LIST// 01LD251513// QI"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "PO Status Clarification",
+        "severity": "LOW",
+        "details": "POs 5765 and 5766 were previously put on hold due to pricing issues, supplier requesting guidance on",
+        "subject": "RE: Nueva orden 5801AB - Tuberculos Selectos - AC Brand"
+      },
+      {
+        "subcategory": "Demurrage",
+        "severity": "MEDIUM",
+        "details": "Free time expires 02/26/2026, demurrage starts 02/27/2026 for container SZLU9557366",
+        "subject": "ARRIVAL NOTICE INVOICE SCANNING FEE & CGH INVOICE"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "International Materials": {
+    "total_emails": 8,
+    "email_types": {
+      "OPERATIONAL": 6,
+      "AUTO_NOTIFICATION": 1,
+      "OTHER": 1
+    },
+    "total_incidents": 5,
+    "total_signals": 15,
+    "action_required_count": 4,
+    "operational_impact_count": 3,
+    "sentiments": {
+      "POSITIVE": 5,
+      "NEUTRAL": 2,
+      "CONCERNED": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 2,
+      "DELAY_DISRUPTION": 2,
+      "COST_CHANGES": 1
+    },
+    "incident_subcategories": {
+      "Payment Processing Issue": 2,
+      "Vessel Rollover": 1,
+      "Supplier delays": 1,
+      "Demurrage": 1
+    },
+    "severities": {
+      "MEDIUM": 4,
+      "HIGH": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 7,
+      "DOCUMENT_READY": 2,
+      "QUICK_RESOLUTION": 2,
+      "DOCUMENTATION_PROVIDED": 1,
+      "COMMERCIAL_GESTURE": 1,
+      "DOCUMENT_CONFIRMATION": 2
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Vessel Rollover",
+        "severity": "HIGH",
+        "details": "Multiple vessel rollovers for PO6809-12 - cargo has been rolled 4 times due to operational issues an",
+        "subject": "RE: BL Instructions PO6809-12 / COBRE / BUSAN / EBKG15256634"
+      },
+      {
+        "subcategory": "Supplier delays",
+        "severity": "MEDIUM",
+        "details": "Shipper could not reach stacking by 06/02, causing cargo to be rolled from MSC SILVANA VIII to MSC O",
+        "subject": "RE: BL Instructions PO6809-12 / COBRE / BUSAN / EBKG15256634"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "GILSA": {
+    "total_emails": 5,
+    "email_types": {
+      "OPERATIONAL": 3,
+      "AUTO_NOTIFICATION": 2
+    },
+    "total_incidents": 2,
+    "total_signals": 11,
+    "action_required_count": 2,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "POSITIVE": 4,
+      "CONCERNED": 1
+    },
+    "incident_categories": {
+      "DELAY_DISRUPTION": 1,
+      "OPERATIONAL_ISSUES": 1
+    },
+    "incident_subcategories": {
+      "Documentation delays": 1,
+      "Multiple follow-ups": 1
+    },
+    "severities": {
+      "MEDIUM": 2
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 6,
+      "DOCUMENT_READY": 3,
+      "COMMITMENT_TO_RESOLVE": 1,
+      "CARGO_READY": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Me Salve": {
+    "total_emails": 6,
+    "email_types": {
+      "OPERATIONAL": 5,
+      "MARKETING": 1
+    },
+    "total_incidents": 7,
+    "total_signals": 5,
+    "action_required_count": 5,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 6
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 5,
+      "COST_CHANGES": 2
+    },
+    "incident_subcategories": {
+      "Documentation quality issues": 5,
+      "Penalty charges": 2
+    },
+    "severities": {
+      "LOW": 6,
+      "MEDIUM": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 5
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "New requirement for suppliers to include pictures of every item on packing list to improve documenta",
+        "subject": "Me Salve - Order Number:  24026639"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "New requirement for pictures of every item on packing list to be included in documentation",
+        "subject": "Me Salve - Order Number:  24026632"
+      },
+      {
+        "subcategory": "Penalty charges",
+        "severity": "LOW",
+        "details": "2% penalty charge for not submitting commercial invoice and packing list to forwarder",
+        "subject": "Me Salve - Order Number:  24026632"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "New requirement for pictures of every item on packing list to be included in documentation sent to t",
+        "subject": "Me Salve - Order Number:  24026631"
+      },
+      {
+        "subcategory": "Penalty charges",
+        "severity": "LOW",
+        "details": "2% penalty charge for not submitting commercial invoice and packing list to forwarder",
+        "subject": "Me Salve - Order Number:  24026631"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "LOW",
+        "details": "Supplier must now include pictures of every item on packing list and ensure proper documentation sub",
+        "subject": "Me Salve - Order Number:  24026637"
+      },
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "MEDIUM",
+        "details": "2% penalty charge warning for non-compliance with commercial invoice and packing list submission req",
+        "subject": "Me Salve - Order Number:  24026619"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "FREIJE SUPPLY": {
+    "total_emails": 8,
+    "email_types": {
+      "OPERATIONAL": 5,
+      "AUTO_NOTIFICATION": 2,
+      "MARKETING": 1
+    },
+    "total_incidents": 3,
+    "total_signals": 8,
+    "action_required_count": 5,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 4,
+      "CRITICAL": 1,
+      "POSITIVE": 3
+    },
+    "incident_categories": {
+      "COST_CHANGES": 2,
+      "OPERATIONAL_ISSUES": 1
+    },
+    "incident_subcategories": {
+      "Overdue Invoices": 1,
+      "Delinquent Account": 1,
+      "Quantity Discrepancy": 1
+    },
+    "severities": {
+      "MEDIUM": 1,
+      "HIGH": 1,
+      "LOW": 1
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 6,
+      "QUICK_RESPONSE": 1,
+      "ORDER_CONFIRMATION": 1
+    },
+    "total_financial_impact_usd": 62267.74,
+    "financial_impacts": [
+      {
+        "amount": 62242.52,
+        "currency": "USD",
+        "type": "outstanding_debt",
+        "subcategory": "Delinquent Account",
+        "subject": "FW: FREIJE SUPPLY, INC. (20494074) is delinquent with Rheem "
+      },
+      {
+        "amount": 25.22,
+        "currency": "USD",
+        "type": "credit_adjustment",
+        "subcategory": "Quantity Discrepancy",
+        "subject": "Re:RECLAMACION FACTURA #IN00643237 // PO 16988 // ITEM 62493"
+      }
+    ],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Overdue Invoices",
+        "severity": "MEDIUM",
+        "details": "HQJ billing department notifying Freije Supply of overdue invoices requiring payment",
+        "subject": "FW: Estado de Cuenta"
+      },
+      {
+        "subcategory": "Delinquent Account",
+        "severity": "HIGH",
+        "details": "FREIJE SUPPLY, INC. account is delinquent with Rheem US for $62,242.52 USD with multiple overdue inv",
+        "subject": "FW: FREIJE SUPPLY, INC. (20494074) is delinquent with Rheem "
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "FW: FREIJE SUPPLY, INC. (20494074) is delinquent with Rheem US",
+        "sentiment": "CRITICAL",
+        "summary": "Rheem US notifying FREIJE SUPPLY of delinquent account status with $62,242.52 outstanding across mul"
+      }
+    ]
+  },
+  "Pan American Grain": {
+    "total_emails": 3,
+    "email_types": {
+      "AUTO_NOTIFICATION": 1,
+      "OPERATIONAL": 2
+    },
+    "total_incidents": 0,
+    "total_signals": 5,
+    "action_required_count": 2,
+    "operational_impact_count": 0,
+    "sentiments": {
+      "NEUTRAL": 1,
+      "POSITIVE": 2
+    },
+    "incident_categories": {},
+    "incident_subcategories": {},
+    "severities": {},
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 3,
+      "DOCUMENT_READY": 1,
+      "QUICK_RESPONSE": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [],
+    "urgent_emails": []
+  },
+  "Lanco": {
+    "total_emails": 4,
+    "email_types": {
+      "OPERATIONAL": 2,
+      "OTHER": 2
+    },
+    "total_incidents": 2,
+    "total_signals": 4,
+    "action_required_count": 2,
+    "operational_impact_count": 1,
+    "sentiments": {
+      "NEUTRAL": 3,
+      "POSITIVE": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 2
+    },
+    "incident_subcategories": {
+      "Product verification required": 2
+    },
+    "severities": {
+      "MEDIUM": 2
+    },
+    "signal_types": {
+      "PROACTIVE_COMMUNICATION": 2,
+      "DOCUMENT_READY": 1,
+      "COLLABORATIVE_COORDINATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Product verification required",
+        "severity": "MEDIUM",
+        "details": "Products were removed from product list, need manufacturing dates, costs, and verification of MP4502",
+        "subject": "Re: P.O. 117424"
+      },
+      {
+        "subcategory": "Product verification required",
+        "severity": "MEDIUM",
+        "details": "Need to confirm MP4502-15 product code is correct as first order from Bellac was incorrect",
+        "subject": "Re: P.O. 117424"
+      }
+    ],
+    "urgent_emails": []
+  },
+  "Zeev": {
+    "total_emails": 2,
+    "email_types": {
+      "OPERATIONAL": 2
+    },
+    "total_incidents": 3,
+    "total_signals": 3,
+    "action_required_count": 2,
+    "operational_impact_count": 2,
+    "sentiments": {
+      "CONCERNED": 1,
+      "URGENT": 1
+    },
+    "incident_categories": {
+      "OPERATIONAL_ISSUES": 2,
+      "DELAY_DISRUPTION": 1
+    },
+    "incident_subcategories": {
+      "Documentation quality issues": 1,
+      "Customs delays": 1,
+      "Documentation delays": 1
+    },
+    "severities": {
+      "MEDIUM": 2,
+      "HIGH": 1
+    },
+    "signal_types": {
+      "DOCUMENT_READY": 2,
+      "PROACTIVE_COMMUNICATION": 1
+    },
+    "total_financial_impact_usd": 0,
+    "financial_impacts": [],
+    "unresolved_incidents": [
+      {
+        "subcategory": "Documentation quality issues",
+        "severity": "MEDIUM",
+        "details": "Missing contract with supplier and payment terms documentation required for customs clearance",
+        "subject": "RE: REF 10602 - Doctos. Embarque Eta Febrero 20/ Lázaro Cárd"
+      },
+      {
+        "subcategory": "Customs delays",
+        "severity": "HIGH",
+        "details": "Cargo arrived on 03/01/2026 but remains unreleased, risk of tacit abandonment due to prolonged custo",
+        "subject": "RE: REF- 10599 // Doctos. Embarque Grupo EU-CE// Ground Up"
+      }
+    ],
+    "urgent_emails": [
+      {
+        "subject": "RE: REF- 10599 // Doctos. Embarque Grupo EU-CE// Ground Up",
+        "sentiment": "URGENT",
+        "summary": "Critical customs delay for REF-10599 with cargo arrived 01/03/2026 still unreleased, requiring urgen"
+      }
+    ]
+  }
+}

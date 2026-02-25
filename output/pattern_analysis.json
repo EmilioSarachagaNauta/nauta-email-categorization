@@ -1,0 +1,1863 @@
+{
+  "generated_at": "2026-02-24T15:31:31.319505Z",
+  "summary": {
+    "total_classifications": 851,
+    "clients_analyzed": 5,
+    "actors_identified": 52,
+    "automation_opportunities": 20,
+    "workflow_chains_found": 8,
+    "data_window_days": 12
+  },
+  "workflow_frequency_by_client": {
+    "B Fernandez": {
+      "total": 151,
+      "top_workflows": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 19,
+          "pct": 12.6
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 18,
+          "pct": 11.9
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 15,
+          "pct": 9.9
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 15,
+          "pct": 9.9
+        },
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 13,
+          "pct": 8.6
+        }
+      ]
+    },
+    "Ballester": {
+      "total": 176,
+      "top_workflows": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 29,
+          "pct": 16.5
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 21,
+          "pct": 11.9
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 19,
+          "pct": 10.8
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 17,
+          "pct": 9.7
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 16,
+          "pct": 9.1
+        }
+      ]
+    },
+    "Berrios": {
+      "total": 208,
+      "top_workflows": [
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 39,
+          "pct": 18.8
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 27,
+          "pct": 13.0
+        },
+        {
+          "workflow_type": "DELIVERY_ORDER",
+          "count": 27,
+          "pct": 13.0
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 22,
+          "pct": 10.6
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 18,
+          "pct": 8.7
+        }
+      ]
+    },
+    "Econo": {
+      "total": 180,
+      "top_workflows": [
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 36,
+          "pct": 20.0
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 31,
+          "pct": 17.2
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 27,
+          "pct": 15.0
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 23,
+          "pct": 12.8
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 21,
+          "pct": 11.7
+        }
+      ]
+    },
+    "Me Salve": {
+      "total": 136,
+      "top_workflows": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 55,
+          "pct": 40.4
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 30,
+          "pct": 22.1
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 12,
+          "pct": 8.8
+        },
+        {
+          "workflow_type": "RATE_QUOTE",
+          "count": 8,
+          "pct": 5.9
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 8,
+          "pct": 5.9
+        }
+      ]
+    }
+  },
+  "actor_workflow_patterns": {
+    "Maersk": {
+      "total_emails": 60,
+      "primary_workflow": "ARRIVAL_NOTICE",
+      "primary_pct": 61.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 37,
+          "pct": 61.7
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 16,
+          "pct": 26.7
+        },
+        {
+          "workflow_type": "VESSEL_ROLLOVER_NOTICE",
+          "count": 3,
+          "pct": 5.0
+        }
+      ]
+    },
+    "TOTE Maritime Puerto Rico": {
+      "total_emails": 47,
+      "primary_workflow": "BL_RELEASE",
+      "primary_pct": 51.1,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 24,
+          "pct": 51.1
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 9,
+          "pct": 19.1
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 8,
+          "pct": 17.0
+        }
+      ]
+    },
+    "admincomp.com": {
+      "total_emails": 40,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 97.5,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 39,
+          "pct": 97.5
+        },
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 1,
+          "pct": 2.5
+        }
+      ]
+    },
+    "bfernandez.com": {
+      "total_emails": 39,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 17.9,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 7,
+          "pct": 17.9
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 6,
+          "pct": 15.4
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 5,
+          "pct": 12.8
+        }
+      ]
+    },
+    "Supermercados Econo Inc": {
+      "total_emails": 35,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 25.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 9,
+          "pct": 25.7
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 7,
+          "pct": 20.0
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 6,
+          "pct": 17.1
+        }
+      ]
+    },
+    "Acumatica/SuperEcono": {
+      "total_emails": 26,
+      "primary_workflow": "STATUS_UPDATE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 26,
+          "pct": 100.0
+        }
+      ]
+    },
+    "ML Agency": {
+      "total_emails": 25,
+      "primary_workflow": "DELIVERY_ORDER",
+      "primary_pct": 96.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DELIVERY_ORDER",
+          "count": 24,
+          "pct": 96.0
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 1,
+          "pct": 4.0
+        }
+      ]
+    },
+    "BHI Puerto Rico": {
+      "total_emails": 23,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 34.8,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 8,
+          "pct": 34.8
+        },
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 4,
+          "pct": 17.4
+        },
+        {
+          "workflow_type": "ESCALATION",
+          "count": 2,
+          "pct": 8.7
+        }
+      ]
+    },
+    "Crowley": {
+      "total_emails": 22,
+      "primary_workflow": "BOOKING_CONFIRMATION",
+      "primary_pct": 27.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 6,
+          "pct": 27.3
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 4,
+          "pct": 18.2
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 3,
+          "pct": 13.6
+        }
+      ]
+    },
+    "bhipr.com": {
+      "total_emails": 21,
+      "primary_workflow": "BOOKING_CONFIRMATION",
+      "primary_pct": 19.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 4,
+          "pct": 19.0
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 4,
+          "pct": 19.0
+        },
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 3,
+          "pct": 14.3
+        }
+      ]
+    },
+    "Puerto Rico Treasury Department (Hacienda)": {
+      "total_emails": 16,
+      "primary_workflow": "CUSTOMS_CLEARANCE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 16,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Hapag-Lloyd": {
+      "total_emails": 13,
+      "primary_workflow": "ARRIVAL_NOTICE",
+      "primary_pct": 76.9,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 10,
+          "pct": 76.9
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 2,
+          "pct": 15.4
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 7.7
+        }
+      ]
+    },
+    "Supermercados Econo": {
+      "total_emails": 11,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 45.5,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 5,
+          "pct": 45.5
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 3,
+          "pct": 27.3
+        },
+        {
+          "workflow_type": "ESCALATION",
+          "count": 1,
+          "pct": 9.1
+        }
+      ]
+    },
+    "formresponse.com": {
+      "total_emails": 11,
+      "primary_workflow": "CONTAINER_STATUS",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 11,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Empresas Berrios": {
+      "total_emails": 10,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 30.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 3,
+          "pct": 30.0
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 2,
+          "pct": 20.0
+        }
+      ]
+    },
+    "TrailerBridge": {
+      "total_emails": 10,
+      "primary_workflow": "CONTAINER_STATUS",
+      "primary_pct": 40.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 4,
+          "pct": 40.0
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 2,
+          "pct": 20.0
+        },
+        {
+          "workflow_type": "DETENTION_DEMURRAGE_NOTICE",
+          "count": 2,
+          "pct": 20.0
+        }
+      ]
+    },
+    "InfoNexus": {
+      "total_emails": 10,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 40.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 4,
+          "pct": 40.0
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 4,
+          "pct": 40.0
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 1,
+          "pct": 10.0
+        }
+      ]
+    },
+    "superecono.com": {
+      "total_emails": 9,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 3,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 3,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 2,
+          "pct": 22.2
+        }
+      ]
+    },
+    "Tradeworks Corporation": {
+      "total_emails": 8,
+      "primary_workflow": "FOLLOW_UP",
+      "primary_pct": 62.5,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 5,
+          "pct": 62.5
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 12.5
+        }
+      ]
+    },
+    "redelgado.com": {
+      "total_emails": 8,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 75.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 6,
+          "pct": 75.0
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 1,
+          "pct": 12.5
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 12.5
+        }
+      ]
+    },
+    "Turing Global Logistics": {
+      "total_emails": 8,
+      "primary_workflow": "CONTAINER_STATUS",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 8,
+          "pct": 100.0
+        }
+      ]
+    },
+    "aquagulf.com": {
+      "total_emails": 7,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 42.9,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 3,
+          "pct": 42.9
+        },
+        {
+          "workflow_type": "ESCALATION",
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 2,
+          "pct": 28.6
+        }
+      ]
+    },
+    "Ballester Hermanos": {
+      "total_emails": 7,
+      "primary_workflow": "ESCALATION",
+      "primary_pct": 42.9,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "ESCALATION",
+          "count": 3,
+          "pct": 42.9
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 2,
+          "pct": 28.6
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 14.3
+        }
+      ]
+    },
+    "Rich Ams Global": {
+      "total_emails": 7,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 71.4,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 5,
+          "pct": 71.4
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 2,
+          "pct": 28.6
+        }
+      ]
+    },
+    "Super Econo": {
+      "total_emails": 6,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 66.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 4,
+          "pct": 66.7
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 16.7
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 16.7
+        }
+      ]
+    },
+    "Berrios PR": {
+      "total_emails": 6,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 2,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "DETENTION_DEMURRAGE_NOTICE",
+          "count": 1,
+          "pct": 16.7
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 16.7
+        }
+      ]
+    },
+    "Star Ride": {
+      "total_emails": 6,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 6,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Me Salve": {
+      "total_emails": 6,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 83.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 5,
+          "pct": 83.3
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 16.7
+        }
+      ]
+    },
+    "berriospr.com": {
+      "total_emails": 5,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 40.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 2,
+          "pct": 40.0
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 1,
+          "pct": 20.0
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 1,
+          "pct": 20.0
+        }
+      ]
+    },
+    "U.S. Customs and Border Protection (CBP)": {
+      "total_emails": 5,
+      "primary_workflow": "CUSTOMS_CLEARANCE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 5,
+          "pct": 100.0
+        }
+      ]
+    },
+    "teamwaytrucking.com": {
+      "total_emails": 5,
+      "primary_workflow": "RATE_QUOTE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "RATE_QUOTE",
+          "count": 5,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Diego Dinzey Rodríguez - CHB": {
+      "total_emails": 5,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 5,
+          "pct": 100.0
+        }
+      ]
+    },
+    "SUPERMERCADOS ECONO INC": {
+      "total_emails": 4,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 50.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 2,
+          "pct": 50.0
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "azafood.com": {
+      "total_emails": 4,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Aqua Gulf": {
+      "total_emails": 4,
+      "primary_workflow": "FOLLOW_UP",
+      "primary_pct": 25.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "OTHER",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "Ballester Hermanos (bhipr.com)": {
+      "total_emails": 4,
+      "primary_workflow": "STATUS_UPDATE",
+      "primary_pct": 25.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "ESCALATION",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "DELIVERY_ORDER",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "AB InBev": {
+      "total_emails": 4,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 75.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 3,
+          "pct": 75.0
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "BHIPR": {
+      "total_emails": 4,
+      "primary_workflow": "FOLLOW_UP",
+      "primary_pct": 25.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "ESCALATION",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "ECU Worldwide": {
+      "total_emails": 4,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 25.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "DELIVERY_ORDER",
+          "count": 1,
+          "pct": 25.0
+        },
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 25.0
+        }
+      ]
+    },
+    "Luis Ayala Colon Sucrs., Inc.": {
+      "total_emails": 4,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Trailer Bridge, Inc.": {
+      "total_emails": 4,
+      "primary_workflow": "ARRIVAL_NOTICE",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 4,
+          "pct": 100.0
+        }
+      ]
+    },
+    "email system read receipt": {
+      "total_emails": 3,
+      "primary_workflow": "STATUS_UPDATE",
+      "primary_pct": 66.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 2,
+          "pct": 66.7
+        },
+        {
+          "workflow_type": "OTHER",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "Trafon Group": {
+      "total_emails": 3,
+      "primary_workflow": "STATUS_UPDATE",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "STATUS_UPDATE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "Allport Cargo Services": {
+      "total_emails": 3,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "DETENTION_DEMURRAGE_NOTICE",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "LMGO International, Inc.": {
+      "total_emails": 3,
+      "primary_workflow": "ARRIVAL_NOTICE",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "BOOKING_CONFIRMATION",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "CARGO_READY",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "TOTE Maritime": {
+      "total_emails": 3,
+      "primary_workflow": "CUSTOMS_CLEARANCE",
+      "primary_pct": 66.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 2,
+          "pct": 66.7
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "Crowley Logistics": {
+      "total_emails": 3,
+      "primary_workflow": "FOLLOW_UP",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "BHI Puerto Rico (bhipr.com)": {
+      "total_emails": 3,
+      "primary_workflow": "PICKUP_COORDINATION",
+      "primary_pct": 66.7,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 2,
+          "pct": 66.7
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "TQL (Total Quality Logistics)": {
+      "total_emails": 3,
+      "primary_workflow": "CONTAINER_STATUS",
+      "primary_pct": 100.0,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 3,
+          "pct": 100.0
+        }
+      ]
+    },
+    "Crowley Puerto Rico": {
+      "total_emails": 3,
+      "primary_workflow": "FOLLOW_UP",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FOLLOW_UP",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "CUSTOMS_CLEARANCE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "BL_RELEASE",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "AJC Logistics LLC DBA Eagle Logistics Systems": {
+      "total_emails": 3,
+      "primary_workflow": "FREIGHT_INVOICE",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "ARRIVAL_NOTICE",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "CONTAINER_STATUS",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    },
+    "Campbell's": {
+      "total_emails": 3,
+      "primary_workflow": "DOCUMENT_REQUEST",
+      "primary_pct": 33.3,
+      "workflow_breakdown": [
+        {
+          "workflow_type": "DOCUMENT_REQUEST",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "PICKUP_COORDINATION",
+          "count": 1,
+          "pct": 33.3
+        },
+        {
+          "workflow_type": "FREIGHT_INVOICE",
+          "count": 1,
+          "pct": 33.3
+        }
+      ]
+    }
+  },
+  "temporal_patterns": {
+    "B Fernandez": [
+      {
+        "day": "Monday",
+        "total": 101,
+        "top_workflows": [
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 15
+          },
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 13
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "total": 50,
+        "top_workflows": [
+          {
+            "workflow_type": "FOLLOW_UP",
+            "count": 8
+          },
+          {
+            "workflow_type": "STATUS_UPDATE",
+            "count": 5
+          },
+          {
+            "workflow_type": "DETENTION_DEMURRAGE_NOTICE",
+            "count": 5
+          }
+        ]
+      }
+    ],
+    "Ballester": [
+      {
+        "day": "Monday",
+        "total": 119,
+        "top_workflows": [
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 23
+          },
+          {
+            "workflow_type": "ARRIVAL_NOTICE",
+            "count": 15
+          },
+          {
+            "workflow_type": "STATUS_UPDATE",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "total": 57,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 9
+          },
+          {
+            "workflow_type": "ESCALATION",
+            "count": 7
+          },
+          {
+            "workflow_type": "CONTAINER_STATUS",
+            "count": 7
+          }
+        ]
+      }
+    ],
+    "Berrios": [
+      {
+        "day": "Monday",
+        "total": 137,
+        "top_workflows": [
+          {
+            "workflow_type": "ARRIVAL_NOTICE",
+            "count": 38
+          },
+          {
+            "workflow_type": "DELIVERY_ORDER",
+            "count": 23
+          },
+          {
+            "workflow_type": "CUSTOMS_CLEARANCE",
+            "count": 19
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "total": 46,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 11
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 7
+          },
+          {
+            "workflow_type": "BOOKING_CONFIRMATION",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "total": 16,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 2
+          },
+          {
+            "workflow_type": "OTHER",
+            "count": 2
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "total": 5,
+        "top_workflows": [
+          {
+            "workflow_type": "OTHER",
+            "count": 2
+          },
+          {
+            "workflow_type": "STATUS_UPDATE",
+            "count": 1
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "day": "Sunday",
+        "total": 4,
+        "top_workflows": [
+          {
+            "workflow_type": "STATUS_UPDATE",
+            "count": 1
+          },
+          {
+            "workflow_type": "RATE_QUOTE",
+            "count": 1
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "Econo": [
+      {
+        "day": "Monday",
+        "total": 102,
+        "top_workflows": [
+          {
+            "workflow_type": "STATUS_UPDATE",
+            "count": 26
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 16
+          },
+          {
+            "workflow_type": "BOOKING_CONFIRMATION",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "total": 78,
+        "top_workflows": [
+          {
+            "workflow_type": "BL_RELEASE",
+            "count": 16
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 15
+          },
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 13
+          }
+        ]
+      }
+    ],
+    "Me Salve": [
+      {
+        "day": "Monday",
+        "total": 29,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 14
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 4
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "total": 13,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 6
+          },
+          {
+            "workflow_type": "OTHER",
+            "count": 2
+          },
+          {
+            "workflow_type": "CONTAINER_STATUS",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "total": 15,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 6
+          },
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 6
+          },
+          {
+            "workflow_type": "BL_RELEASE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "total": 34,
+        "top_workflows": [
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 22
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 4
+          },
+          {
+            "workflow_type": "RATE_QUOTE",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "total": 42,
+        "top_workflows": [
+          {
+            "workflow_type": "FREIGHT_INVOICE",
+            "count": 17
+          },
+          {
+            "workflow_type": "DOCUMENT_REQUEST",
+            "count": 7
+          },
+          {
+            "workflow_type": "PICKUP_COORDINATION",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "total": 2,
+        "top_workflows": [
+          {
+            "workflow_type": "CONTAINER_STATUS",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "day": "Sunday",
+        "total": 1,
+        "top_workflows": [
+          {
+            "workflow_type": "RATE_QUOTE",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "automation_clusters": [
+    {
+      "client": "Me Salve",
+      "workflow_type": "DOCUMENT_REQUEST",
+      "trigger_actor_type": "CLIENT",
+      "email_count": 45,
+      "high_automation_count": 25,
+      "estimated_monthly_volume": 112.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "standardized documentation requirements",
+        "order confirmation process",
+        "standardized document requirements"
+      ],
+      "sample_reason": "Commercial invoice requests following delivery confirmations are routine and can be automatically triggered and fulfilled."
+    },
+    {
+      "client": "Berrios",
+      "workflow_type": "ARRIVAL_NOTICE",
+      "trigger_actor_type": "CARRIER",
+      "email_count": 34,
+      "high_automation_count": 34,
+      "estimated_monthly_volume": 85.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated notification system",
+        "standardized template format",
+        "system-generated from address"
+      ],
+      "sample_reason": "Standardized arrival notification with structured data that can be automatically parsed and processed into downstream systems."
+    },
+    {
+      "client": "Econo",
+      "workflow_type": "STATUS_UPDATE",
+      "trigger_actor_type": "SYSTEM",
+      "email_count": 26,
+      "high_automation_count": 26,
+      "estimated_monthly_volume": 65.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "noreply email address",
+        "automated system notification",
+        "standardized PO completion format"
+      ],
+      "sample_reason": "Standardized system-generated PO completion notification with consistent format and clear trigger event."
+    },
+    {
+      "client": "Econo",
+      "workflow_type": "BL_RELEASE",
+      "trigger_actor_type": "CARRIER",
+      "email_count": 26,
+      "high_automation_count": 25,
+      "estimated_monthly_volume": 65.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated notification",
+        "DONOTREPLY email address",
+        "standardized subject format with vessel number"
+      ],
+      "sample_reason": "Standard carrier document release notification with structured vessel reference that follows predictable format and requires no human judgment."
+    },
+    {
+      "client": "Berrios",
+      "workflow_type": "DELIVERY_ORDER",
+      "trigger_actor_type": "FORWARDER",
+      "email_count": 24,
+      "high_automation_count": 24,
+      "estimated_monthly_volume": 60.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "standard delivery order authorization response",
+        "template-based confirmation message",
+        "shipment authorization confirmation"
+      ],
+      "sample_reason": "Standard confirmation message with shipment number that follows predictable format and contains routine authorization information."
+    },
+    {
+      "client": "Econo",
+      "workflow_type": "PICKUP_COORDINATION",
+      "trigger_actor_type": "CLIENT",
+      "email_count": 16,
+      "high_automation_count": 14,
+      "estimated_monthly_volume": 40.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "appointment scheduling",
+        "logistics coordination",
+        "standardized container ID format"
+      ],
+      "sample_reason": "Simple confirmation of scheduled pickup dates with purchase order numbers follows a standardized format that can be automated."
+    },
+    {
+      "client": "Berrios",
+      "workflow_type": "CUSTOMS_CLEARANCE",
+      "trigger_actor_type": "SYSTEM",
+      "email_count": 16,
+      "high_automation_count": 16,
+      "estimated_monthly_volume": 40.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated system notification",
+        "standardized approval message format",
+        "sequential declaration numbers"
+      ],
+      "sample_reason": "Standardized government system notification with consistent format and data structure that can be automatically parsed and processed."
+    },
+    {
+      "client": "Econo",
+      "workflow_type": "DOCUMENT_REQUEST",
+      "trigger_actor_type": "CLIENT",
+      "email_count": 15,
+      "high_automation_count": 13,
+      "estimated_monthly_volume": 37.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "brief standardized message format",
+        "standard procurement process",
+        "standardized request format"
+      ],
+      "sample_reason": "Simple document request with standard container identifiers that can be automatically parsed and routed for fulfillment."
+    },
+    {
+      "client": "Econo",
+      "workflow_type": "BOOKING_CONFIRMATION",
+      "trigger_actor_type": "CLIENT",
+      "email_count": 13,
+      "high_automation_count": 12,
+      "estimated_monthly_volume": 32.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "purchase order reference number",
+        "standard confirmation request format",
+        "booking confirmation request"
+      ],
+      "sample_reason": "Highly structured booking confirmation with standardized fields that can be automatically parsed and processed."
+    },
+    {
+      "client": "Ballester",
+      "workflow_type": "FREIGHT_INVOICE",
+      "trigger_actor_type": "SUPPLIER",
+      "email_count": 13,
+      "high_automation_count": 13,
+      "estimated_monthly_volume": 32.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "structured invoice reference format",
+        "structured invoice format",
+        "standardized PO matching process"
+      ],
+      "sample_reason": "Highly structured data with consistent format for invoice numbers, PO numbers, and weight tables that can be easily parsed and processed automatically."
+    },
+    {
+      "client": "Me Salve",
+      "workflow_type": "FREIGHT_INVOICE",
+      "trigger_actor_type": "SUPPLIER",
+      "email_count": 13,
+      "high_automation_count": 12,
+      "estimated_monthly_volume": 32.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated invoice notification",
+        "electronic invoice system",
+        "standardized template"
+      ],
+      "sample_reason": "Invoice notifications with attachment references follow predictable patterns and can be automatically parsed and routed to appropriate recipients."
+    },
+    {
+      "client": "Ballester",
+      "workflow_type": "CONTAINER_STATUS",
+      "trigger_actor_type": "WAREHOUSE",
+      "email_count": 12,
+      "high_automation_count": 12,
+      "estimated_monthly_volume": 30.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated form submission",
+        "standardized data fields",
+        "systematic inspection process"
+      ],
+      "sample_reason": "Structured form data with standardized fields for wagon inspection can be automatically parsed and processed into tracking systems."
+    },
+    {
+      "client": "Ballester",
+      "workflow_type": "ARRIVAL_NOTICE",
+      "trigger_actor_type": "CARRIER",
+      "email_count": 12,
+      "high_automation_count": 12,
+      "estimated_monthly_volume": 30.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "standardized format",
+        "automated notification",
+        "system-generated email"
+      ],
+      "sample_reason": "Standard carrier notification with structured data that can be automatically parsed and processed for customs clearance and delivery planning."
+    },
+    {
+      "client": "Ballester",
+      "workflow_type": "PICKUP_COORDINATION",
+      "trigger_actor_type": "CLIENT",
+      "email_count": 10,
+      "high_automation_count": 7,
+      "estimated_monthly_volume": 25.0,
+      "routine_rate_pct": 90.0,
+      "top_recurrence_signals": [
+        "PO acknowledgment process",
+        "standard pickup coordination workflow",
+        "scheduled pickup requests"
+      ],
+      "sample_reason": "Simple PO acknowledgment and forwarding instruction follows a predictable pattern that can be fully automated."
+    },
+    {
+      "client": "Me Salve",
+      "workflow_type": "FREIGHT_INVOICE",
+      "trigger_actor_type": "CARRIER",
+      "email_count": 10,
+      "high_automation_count": 10,
+      "estimated_monthly_volume": 25.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated payment receipt notification",
+        "system-generated donotreply email",
+        "standardized receipt format"
+      ],
+      "sample_reason": "Standard invoice notification with structured data that can be automatically parsed and processed into accounting systems."
+    },
+    {
+      "client": "B Fernandez",
+      "workflow_type": "CUSTOMS_CLEARANCE",
+      "trigger_actor_type": "CARRIER",
+      "email_count": 9,
+      "high_automation_count": 9,
+      "estimated_monthly_volume": 22.5,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "USCG inspection process",
+        "container release notification",
+        "standardized format"
+      ],
+      "sample_reason": "Standard USCG inspection release notification with predictable format and clear status update that can be automatically parsed and processed."
+    },
+    {
+      "client": "Ballester",
+      "workflow_type": "DOCUMENT_REQUEST",
+      "trigger_actor_type": "SUPPLIER",
+      "email_count": 8,
+      "high_automation_count": 8,
+      "estimated_monthly_volume": 20.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "structured shipment data format",
+        "order confirmation process",
+        "standardized invoice attachment process"
+      ],
+      "sample_reason": "PO document requests can be automatically routed and fulfilled from procurement systems based on PO numbers."
+    },
+    {
+      "client": "Berrios",
+      "workflow_type": "STATUS_UPDATE",
+      "trigger_actor_type": "SYSTEM",
+      "email_count": 8,
+      "high_automation_count": 8,
+      "estimated_monthly_volume": 20.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated read receipt",
+        "scheduled automated report",
+        "noreply email address"
+      ],
+      "sample_reason": "This is an automated email read receipt that can be fully processed by systems without human intervention."
+    },
+    {
+      "client": "B Fernandez",
+      "workflow_type": "FREIGHT_INVOICE",
+      "trigger_actor_type": "SUPPLIER",
+      "email_count": 8,
+      "high_automation_count": 7,
+      "estimated_monthly_volume": 20.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "automated invoice notification",
+        "standardized invoice format",
+        "template-based email structure"
+      ],
+      "sample_reason": "Standard invoice notification with predictable format and attachment that can be automatically processed and routed."
+    },
+    {
+      "client": "B Fernandez",
+      "workflow_type": "DOCUMENT_REQUEST",
+      "trigger_actor_type": "FORWARDER",
+      "email_count": 8,
+      "high_automation_count": 4,
+      "estimated_monthly_volume": 20.0,
+      "routine_rate_pct": 100.0,
+      "top_recurrence_signals": [
+        "structured order data format",
+        "missing documentation request",
+        "scheduled sailing deadline"
+      ],
+      "sample_reason": "Invoice generation for specific PO numbers with structured order data can be fully automated based on sailing schedules and order systems."
+    }
+  ],
+  "workflow_chains": [
+    {
+      "sequence": [
+        "ARRIVAL_NOTICE",
+        "FREIGHT_INVOICE"
+      ],
+      "occurrence_count": 5,
+      "example_entities": [
+        "CAT40053191",
+        "HLCUME3260127565",
+        "24261"
+      ]
+    },
+    {
+      "sequence": [
+        "CUSTOMS_CLEARANCE",
+        "DOCUMENT_REQUEST"
+      ],
+      "occurrence_count": 3,
+      "example_entities": [
+        "CAT40054963",
+        "08919448",
+        "DRPO121905"
+      ]
+    },
+    {
+      "sequence": [
+        "BOOKING_CONFIRMATION",
+        "PICKUP_COORDINATION"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "CSPO111427",
+        "BF-115239"
+      ]
+    },
+    {
+      "sequence": [
+        "ISF_FILING",
+        "DOCUMENT_REQUEST"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "265285216",
+        "24143"
+      ]
+    },
+    {
+      "sequence": [
+        "FOLLOW_UP",
+        "BL_RELEASE"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "08919448",
+        "CWPS26150023"
+      ]
+    },
+    {
+      "sequence": [
+        "PICKUP_COORDINATION",
+        "FREIGHT_INVOICE"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "24026597",
+        "24026220"
+      ]
+    },
+    {
+      "sequence": [
+        "FREIGHT_INVOICE",
+        "ARRIVAL_NOTICE"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "2026-00003",
+        "263078866"
+      ]
+    },
+    {
+      "sequence": [
+        "ARRIVAL_NOTICE",
+        "DOCUMENT_REQUEST"
+      ],
+      "occurrence_count": 2,
+      "example_entities": [
+        "23169",
+        "23173"
+      ]
+    }
+  ]
+}
